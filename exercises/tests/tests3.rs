@@ -16,11 +16,11 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
-        assert!();
+        assert!(is_even(10) == true);
     }
 
     #[test]
     fn is_false_when_odd() {
-        assert!();
+        assert!(is_even(9) == false);
     }
 }
